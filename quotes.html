@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo">
+    <link rel="stylesheet" href="styles/basic.css">
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <header>
+
+            <div id="nav-brand">
+                <div id="nav-brand-logo">
+                    <img src="img/Logo.svg" alt="Logo">
+                    The Woodworking Co.
+                </div>
+                
+                <button id="dark_mode" title="Press to change mode">Dark</button>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+                <a class="active" href="quotes.html">Quotes</a>
+                <a href="gallery.html">Gallery</a>
+            </nav>
+    
+        </header>
+    
+    
+    
+        <main>
+    
+            <section>
+                <h2>Quotes</h2>
+                <p>
+                    Fill out the form below and send it to us with the submit button.  We will contact you within 24 business hours. 
+                </p>           
+            </section>
+            <section >
+                <form name="profile">
+
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <span class="alert" id="nameError"></span><br><br>
+        
+        
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <span class="alert" id="emailError"></span><br><br>
+        
+                    <label for="phone">Phone Number</label><br>
+                    <input type="text" id="phone" name="phone"><br>
+                    <span class="alert" id="phoneError"></span><br>
+                    
+                <label for="project">Project</label><br>
+                    <select id="project" name="project">
+                    <option value="">Select Type of Work</option>
+                    <option value="AB">Project1</option>
+                    <option value="BC">Project2</option>
+                    <option value="MB">Project3</option>
+                    <option value="NB">Project4</option>
+                    </select><br><br>
+                    
+
+                    <label for="size">Estimated size of work(in sq. ft)</label><br>
+                    <input type="text" id="size" name="size"><br>
+                
+
+                    <input id="submit" type="submit" value="Submit">
+                    <input type="reset">
+        
+            </form>
+            </section>
+    
+        </main>
+    
+    
+    
+        <footer>
+    
+            <div id="footer-address">
+                <address>
+                    3389 Island Hwy<br>
+                    Campbell River, BC<br>
+                    V9W 4C4<br>
+                    250-205-4726
+                </address>
+            </div>
+            <div id="footer-social">
+                <div class="social-media-icon icon-up"><a href="http://www.facebook.com/"><img src="img/social-icons-fb.png" alt="Facebook"></a></div>
+                <div class="social-media-icon icon-down"><a href="http://www.twitter.com/"><img src="img/social-icons-twitter.png" alt="Twitter"></a></div>
+                <div class="social-media-icon icon-up"><a href="http://www.youtube.com/"><img src="img/social-icons-yt.png" alt="Youtube"></a></div>
+                <div class="social-media-icon icon-down"><a href="http://www.instagram.com/"><img src="img/social-icons-ig.png" alt="Instagram"></a></div>
+            </div>
+            <div id="footer-copyright">&copy; Copyright 2021 The Woodworking Co.</div>
+    
+        </footer>
+
+    </div>
+
+    <script src = "scripts/jquery-3.6.0.min.js"></script>
+    <script src = "scripts/assignment2.js"> </script>
+</body>
+</html>
